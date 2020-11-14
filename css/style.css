@@ -15,7 +15,7 @@
 	width:300px;
 }
 .navbar-header{
-	height:100px;
+	height:120px;
 }
 
 
@@ -295,7 +295,7 @@ Navigation
 }
 
 .navbar.navbar-custom .navigation {
-	padding-bottom: 15px;
+	padding-bottom: 0px;
 
 }
 
@@ -737,7 +737,7 @@ hr.bold {
 
 .intro-content {
 	background: url(../img/dummy/bg1.jpg) no-repeat top center;
-	padding:120px 0 60px;
+	padding:150px 0 60px;
 }
 .intro-content.intro-nobg {
 	background:#fff;
