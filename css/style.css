@@ -10,6 +10,13 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Roboto:400,500,700,900');
 /* --- pe-icon-7-stroke --- */
 
+#nric {
+	width:300px;
+}
+.navbar-header{
+	height:120px;
+}
+
 
 body {
     width: 100%;
@@ -628,6 +635,7 @@ hr.bold {
     position:relative;
     z-index:120;
 	background-color: #fff;
+	padding-bottom:30px;
 }
 
 
@@ -728,7 +736,7 @@ hr.bold {
 
 .intro-content {
 	background: url(../img/dummy/bg1.jpg) no-repeat top center;
-	padding:200px 0 60px;
+	padding:150px 0 60px;
 }
 .intro-content.intro-nobg {
 	background:#fff;
@@ -1605,6 +1613,7 @@ a.scrollup i:hover {
 
 /* --- button --- */
 .btn {
+	width:300px;
 	position: relative;
 	display: inline-block;
 	outline: none;
@@ -1613,7 +1622,6 @@ a.scrollup i:hover {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 400;	
-	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 14px;
 
 	font-weight: 700;
@@ -1954,16 +1962,17 @@ a.btn:focus{
 	
 	.badge.custom-badge {
 		margin: 0 0 0 0;
-	}
-	
+	}	
+
 	.navbar-header button {
-		border-color: #ccc;
-		background-color: #eee;
-		padding: 5px 20px;
+		height: 120px;
+		vertical-align: middle;
+		padding: 5px 5px;
 	}
 	.navbar-header i{
 		color: #666;
 	}
+	
 	
 	.boxes3 {
 	width: 100%;
