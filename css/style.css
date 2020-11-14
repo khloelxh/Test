@@ -9,12 +9,13 @@
 /* ==== Google font ==== */
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Roboto:400,500,700,900');
 /* --- pe-icon-7-stroke --- */
-
+#test1 {width:20%;}
+#test2 {width:80%;}
 #nric {
 	width:300px;
 }
 .navbar-header{
-	height:120px;
+	height:100px;
 }
 
 
@@ -736,7 +737,7 @@ hr.bold {
 
 .intro-content {
 	background: url(../img/dummy/bg1.jpg) no-repeat top center;
-	padding:150px 0 60px;
+	padding:120px 0 60px;
 }
 .intro-content.intro-nobg {
 	background:#fff;
@@ -833,7 +834,6 @@ form.lead label,form.lead input {
 }
 
 .panel-body {
-  background: #fff;
 }
 
 .panel-skin > .panel-heading .badge {
